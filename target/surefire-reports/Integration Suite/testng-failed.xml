@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Integration Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Testing on Chrome(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="package1.project1.TestCase2_LoginToAmazonandLogout">
+        <methods>
+          <include name="withValidCrede"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- package1.project1.TestCase2_LoginToAmazonandLogout -->
+      <class name="package1.project1.TestCase3_LoginToAmazonSearchLogout">
+        <methods>
+          <include name="withValidCrede"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- package1.project1.TestCase3_LoginToAmazonSearchLogout -->
+    </classes>
+  </test> <!-- Testing on Chrome(failed) -->
+</suite> <!-- Failed suite [Integration Suite] -->
